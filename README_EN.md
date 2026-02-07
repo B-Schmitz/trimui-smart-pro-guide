@@ -46,31 +46,44 @@ ROMs and BIOS files are the user’s responsibility.
 ## 🗂 Repository structure
 
 ```txt
-crossmix/
-  ├─ emulators/
-  │   ├─ saves-states/
-  │   │   ├─ gba/
-  │   │   ├─ snes/
-  │   │   └─ ps1/
-  │   ├─ configs/
-  │   │   ├─ gba.md
-  │   │   ├─ snes.md
-  │   │   └─ ps1.md
-  │   └─ per-game/
-  │       ├─ gba/
-  │       ├─ snes/
-  │       └─ ps1/
-  │
-  ├─ themes/
-  │   ├─ recommended.md
-  │
-  ├─ portmaster/
-  │   ├─ README.md
-  │   ├─ recommended.md
-  │   ├─ problematic.md
-  │   └─ tweaks.md
-  │
-  └─ performance-tweaks.md
+│
+├─ HARDWARE.md
+│
+├─ crossmix/
+│   ├─ emulators/
+│   │   ├─ gba/
+│   │   │   ├─ README.md
+│   │   │   ├─ recommended-games.md
+│   │   │   └─ per-game/
+│   │   │
+│   │   ├─ snes/
+│   │   │   ├─ README.md
+│   │   │   ├─ recommended-games.md
+│   │   │   └─ per-game/
+│   │   │
+│   │   └─ ps1/
+│   │       ├─ README.md
+│   │       ├─ recommended-games.md
+│   │       └─ per-game/
+│   │
+│   ├─ saves-states/   
+│   │   └─ README.md
+|   |   └─ per-game/
+│   │
+│   ├─ themes/
+│   │   └─ recommended.md
+|   |
+|   ├─ apps/
+|   |   └─ README.md
+│   │   └─ recommended.md
+│   │
+│   ├─ portmaster/
+│   │   ├─ README.md
+│   │   ├─ recommended.md
+│   │   ├─ problematic.md
+│   │
+│   └─ performance-tweaks.md
+
 ```
 
 ---
