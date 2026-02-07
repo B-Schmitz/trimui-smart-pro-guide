@@ -1,11 +1,7 @@
 # 🎮 Trimui Smart Pro & CrossMix OS – Guia Completo
 
 Este repositório é um **guia prático, opinado e baseado em uso real** para quem
-usa o **TrimUI Smart Pro**, com foco total em **CrossMix OS**.
-
-Aqui não tem hype nem promessa milagrosa.
-É sobre **organização**, **performance**, **conforto** e **entender o console**.
-
+usa o **TrimUI Smart Pro**, com foco no sistema **CrossMix OS**.
 ---
 
 ## 🎯 Para quem é este repositório?
@@ -166,11 +162,7 @@ Sugestões são bem-vindas:
 # 🎮 Trimui Smart Pro & CrossMix OS – Complete Guide
 
 This repository is a **practical, opinionated, real-world guide** for people using
-the **TrimUI Smart Pro**, with a full focus on **CrossMix OS**.
-
-No hype. No miracle promises.
-This is about **organization**, **performance**, **comfort**, and **understanding the device**.
-
+the **TrimUI Smart Pro**, with a focus on **CrossMix OS**.
 ---
 
 ## 🎯 Who is this repository for?
