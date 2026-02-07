@@ -46,29 +46,26 @@ ROMs e BIOS são responsabilidade do usuário.
 ## 🗂 Estrutura do repositório
 
 ```txt
-│
-├─ HARDWARE.md
-│
 ├─ crossmix/
 │   ├─ emulators/
 │   │   ├─ gba/
 │   │   │   ├─ README.md
 │   │   │   ├─ recommended-games.md
-│   │   │   └─ per-game/
+│   │   │   └─ game/
 │   │   │
 │   │   ├─ snes/
 │   │   │   ├─ README.md
 │   │   │   ├─ recommended-games.md
-│   │   │   └─ per-game/
+│   │   │   └─ game/
 │   │   │
 │   │   └─ ps1/
 │   │       ├─ README.md
 │   │       ├─ recommended-games.md
-│   │       └─ per-game/
+│   │       └─ game/
 │   │
 │   ├─ saves-states/   
 │   │   └─ README.md
-│   │   └─ per-game/
+│   │   └─ game/
 │   │
 │   ├─ themes/
 │   │   └─ recommended.md
@@ -85,80 +82,6 @@ ROMs e BIOS são responsabilidade do usuário.
 │   └─ performance-tweaks.md
 
 ```
-
----
-
-## 💾 Saves no CrossMix OS
-
-Os **saves ficam no cartão SD**, organizados principalmente **por emulador**.
-
-### Saves normais
-
-Caminho mais comum:
-```
-/roms/<EMULADOR>/saves/
-```
-
-Exemplos:
-- `/roms/PS/.pcsx_rearmed_libretro`
-- `/roms/SFC/.snes9x_libretro/Super Mario World.3.state`
-
-O nome do arquivo normalmente é **igual ao nome da ROM**.
-
----
-
-## 🎯 Configurações por jogo (Per-Game)
-
-Nem todo jogo roda bem com as mesmas configs.
-
-Este repositório inclui ajustes para jogos que:
-- Têm quedas de FPS
-- Sofrem com áudio picotando
-- Precisam de frameskip pontual
-- Funcionam melhor sem shaders
-
-Estrutura:
-```
-crossmix/emulators/per-game/<emulador>/<jogo>.md
-```
-
-Cada arquivo explica **o porquê** de cada ajuste.
-
----
-
-## 🎨 Visual e interface
-
-Foco em:
-- Temas compatíveis com CrossMix OS
-- Boa legibilidade na tela do TrimUI
-- Ajustes de brilho e contraste
-- Shaders leves e úteis
-
-Nada de estética que sacrifica bateria.
-
----
-
-## 🚀 PortMaster
-
-O PortMaster funciona, mas **não é plug and play**.
-
-Aqui você encontra:
-- Ports que rodam bem
-- Ports que exigem ajustes
-- Ports que não compensam
-- Problemas comuns documentados
-
----
-
-## 🧩 Acessórios físicos
-
-Recomendações baseadas em uso real:
-- Cartões SD confiáveis
-- Capinhas e cases adequados
-- Películas (quando valem a pena)
-- Cabos e adaptadores úteis
-- O que não vale comprar
-
 ---
 
 ## 🤝 Contribuições

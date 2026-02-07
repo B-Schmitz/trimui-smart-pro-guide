@@ -46,29 +46,26 @@ ROMs and BIOS files are the user’s responsibility.
 ## 🗂 Repository structure
 
 ```txt
-│
-├─ HARDWARE.md
-│
 ├─ crossmix/
 │   ├─ emulators/
 │   │   ├─ gba/
 │   │   │   ├─ README.md
 │   │   │   ├─ recommended-games.md
-│   │   │   └─ per-game/
+│   │   │   └─ game/
 │   │   │
 │   │   ├─ snes/
 │   │   │   ├─ README.md
 │   │   │   ├─ recommended-games.md
-│   │   │   └─ per-game/
+│   │   │   └─ game/
 │   │   │
 │   │   └─ ps1/
 │   │       ├─ README.md
 │   │       ├─ recommended-games.md
-│   │       └─ per-game/
+│   │       └─ game/
 │   │
 │   ├─ saves-states/   
 │   │   └─ README.md
-│   │   └─ per-game/
+│   │   └─ game/
 │   │
 │   ├─ themes/
 │   │   └─ recommended.md
@@ -85,79 +82,6 @@ ROMs and BIOS files are the user’s responsibility.
 │   └─ performance-tweaks.md
 
 ```
-
----
-
-## 💾 Saves in CrossMix OS
-
-Saves are stored on the **SD card**, usually **organized by emulator**.
-
-### Normal saves
-
-Most common path:
-```
-/roms/<EMULATOR>/saves/
-```
-
-Examples:
-- `/roms/PS/.pcsx_rearmed_libretro`
-- `/roms/SFC/.snes9x_libretro/Super Mario World.3.state`
-
-The save file name usually **matches the ROM name**.
-
----
-
-## 🎯 Per-Game Configurations
-
-Not every game behaves well with the same settings.
-
-This repository includes tweaks for games that:
-- Suffer from FPS drops
-- Have audio stuttering
-- Need occasional frameskip
-- Run better without shaders
-
-Structure:
-```
-crossmix/emulators/per-game/<emulator>/<game>.md
-```
-
-Each file explains **why** each tweak exists.
-
----
-
-## 🎨 Visuals and interface
-
-Focus areas:
-- Themes compatible with CrossMix OS
-- Good readability on the TrimUI screen
-- Brightness and contrast adjustments
-- Lightweight, useful shaders
-
-No aesthetics that sacrifice battery life.
-
----
-
-## 🚀 PortMaster
-
-PortMaster works, but it’s **not plug-and-play**.
-
-Here you’ll find:
-- Ports that run well
-- Ports that need tweaks
-- Ports that aren’t worth the effort
-- Documented common issues
-
----
-
-## 🧩 Physical accessories
-
-Recommendations based on real usage:
-- Reliable SD cards
-- Proper cases and sleeves
-- Screen protectors (when worth it)
-- Useful cables and adapters
-- What’s not worth buying
 
 ---
 
