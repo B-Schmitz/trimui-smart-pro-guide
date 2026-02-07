@@ -68,13 +68,13 @@ ROMs e BIOS são responsabilidade do usuário.
 │   │
 │   ├─ saves-states/   
 │   │   └─ README.md
-|   |   └─ per-game/
+│   │   └─ per-game/
 │   │
 │   ├─ themes/
 │   │   └─ recommended.md
-|   |
-|   ├─ apps/
-|   |   └─ README.md
+│   │
+│   ├─ apps/
+│   │   └─ README.md
 │   │   └─ recommended.md
 │   │
 │   ├─ portmaster/
